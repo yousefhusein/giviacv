@@ -1,7 +1,7 @@
 {
   "tabWidth": 4,
   "semi": false,
-  "printWidth": 80,
+  "printWidth": 180,
   "proseWrap": "preserve",
   "useTabs": false,
   "bracketSpacing": true,
