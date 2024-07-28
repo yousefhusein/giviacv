@@ -1,5 +1,5 @@
 export default {
-    content: ["./src/**/*.{js}", "./index.html"],
+    content: ["./src/**/*.{js}", "./index.html", "./demo/**/*.html"],
     plugins: [require("@tailwindcss/typography")],
     theme: {
         fontFamily: {
