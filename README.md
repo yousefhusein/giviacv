@@ -2,7 +2,7 @@
 
 A Responsive Personal / vCard / CV HTML Template based in TailwindCSS.
 
-## Best Features
+## Features
 
 - Fully Responsive
 - Browser Compatibility
@@ -20,8 +20,8 @@ Designed & Developed by YousefHusain.
 
 ## Resources
 
-- Pexels (https://pexels.com/)
-- Unsplash (https://unsplash.com/)
+- [Pexels](https://pexels.com/)
+- [Unsplash](https://unsplash.com/)
 - PicsArt
 
 ## Credits
@@ -31,3 +31,4 @@ Designed & Developed by YousefHusain.
 - jQuery
 - AOS
 - OwlCarousel2
+- FontAwesome
