@@ -1,0 +1,14 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+
+    --base-100: #111827;
+    --base-200: #1f2937;
+    --base-300: #374151;
+    --base-foreground: #f3f4f6;
+
+    --primary: #ff451b;
+    --primary-foreground: #f3f4f6;
+
+    --muted: #d1d5db;
+    --muted-foreground: #111827;
+}

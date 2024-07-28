@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <base href="/" />
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no"
+        />
+        <meta name="description" content="vCard, Resume, and CV template" />
+        <meta
+            name="keywords"
+            content="vCard, responsive, resume, cv, jquery, css, html, javascript, typescript, vite, portfolio"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+            integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+
+        <link rel="icon" sizes="256x256" href="./favicon/256x256.ico" />
+        <link rel="icon" sizes="128x128" href="./favicon/128x128.ico" />
+        <link rel="icon" sizes="64x64" href="./favicon/64x64.ico" />
+        <link rel="icon" sizes="32x32" href="./favicon/32x32.ico" />
+        <link rel="icon" sizes="16x16" href="./favicon/16x16.ico" />
+
+        <link
+            rel="apple-touch-icon"
+            sizes="128x128"
+            href="./favicon/128x128.ico"
+        />
+
+        <link rel="short icon" href="./favicon/32x32.ico" />
+
+        <link rel="stylesheet" href="./css/light.css" />
+        <link rel="stylesheet" href="./css/preloader.css" />
+        <title>GiviaCV - Responsive Personal / vCard / CV</title>
+    </head>
+    <body
+        class="font-base bg-gradient-to-tr from-base-100 to-base-200 text-base-foreground bg-fixed min-h-screen loading"
+    >
+        <div class="preloader">
+            <div class="loader">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <main class="py-12 md:py-24">
+            <div class="container text-center">
+                <article class="mb-8">
+                    <h1 class="font-black text-4xl text-violet-700">GiviaCV</h1>
+                    <p class="text-muted mt-2">Personal / vCard / CV / Resume</p>
+                </article>
+                <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-8">
+                    <a href="/demo/1/light.html" class="relative transition-transform hover:scale-95 border border-base-100 rounded-lg overflow-hidden">
+                        <div class="w-full overflow-hidden h-auto">
+                            <img src="./demo/light-preview.png" alt="Light Preview">
+                        </div>
+                        <p class="p-3">
+                            Demo 1 - Light
+                        </p>
+                    </a>
+                    <a href="/demo/1/dark.html" class="relative transition-transform hover:scale-95 border border-base-100 rounded-lg overflow-hidden">
+                        <div class="w-full overflow-hidden h-auto">
+                            <img src="./demo/dark-preview.png" alt="Dark Preview">
+                        </div>
+                        <p class="p-3">
+                            Demo 1 - Dark
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </main>
+        
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>

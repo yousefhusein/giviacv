@@ -1,0 +1,309 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .input {
+        @apply block rounded-md border-2 border-base-300 px-5 py-2 bg-base-300 outline-none resize-none w-full ring-offset-transparent ring-offset-2 focus:ring-1 focus:ring-primary;
+    }
+
+    .pattern {
+        background-image: url("/pattern.webp");
+        @apply bg-fixed bg-cover bg-center;
+    }
+
+    .section {
+        @apply rounded-lg pattern bg-fixed my-5 p-6 md:p-12 shadow bg-base-200 border border-base-300 mt-24 relative;
+    }
+
+    .section-header {
+        @apply w-full mb-9 text-center;
+    }
+
+    .section-title {
+        @apply text-3xl md:text-4xl font-black;
+    }
+
+    .section-description {
+        @apply text-sm md:text-lg mt-2 font-semibold text-muted;
+    }
+
+    .container {
+        @apply mx-auto max-w-screen-2xl px-6 sm:px-10 max-2xl:max-w-screen-lg;
+    }
+
+    .hero-profile {
+        background-image: url("https://images.pexels.com/photos/2446655/pexels-photo-2446655.jpeg?auto=compress&cs=tinysrgb&w=600");
+    }
+
+    .about-profile {
+        background-image: url("https://images.pexels.com/photos/1816643/pexels-photo-1816643.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    }
+
+    .profile,
+    .pattern {
+        @apply bg-cover bg-center bg-no-repeat;
+    }
+
+    .tooltip {
+        @apply relative;
+    }
+
+    .tooltip > label {
+        @apply hidden absolute min-w-20 -bottom-10 z-50 text-center left-1/2 -translate-x-1/2 bg-black text-white px-3 py-1 rounded whitespace-nowrap;
+    }
+
+    .tooltip > img:hover + label,
+    .tooltip > a:hover + label {
+        @apply block;
+    }
+
+    .btn {
+        @apply px-6 py-2 transition-transform font-semibold active:scale-95;
+    }
+
+    .btn.btn-primary {
+        @apply bg-primary text-primary-foreground;
+    }
+
+    .testimonial {
+        @apply bg-base-300 border border-base-200 rounded-md text-center mt-12 p-3;
+    }
+
+    .testimonial-img img {
+        @apply block -mt-12 mx-auto mb-5 !size-24 rounded-full;
+        transform-style: preserve-3d;
+    }
+
+    .testimonial-quote {
+        @apply italic;
+    }
+
+    .testimonial-footer {
+        @apply flex flex-row items-center justify-between mt-5;
+    }
+
+    .testimonial-author {
+        @apply font-bold;
+    }
+
+    .service {
+        @apply rounded-md;
+    }
+
+    .service-title {
+        @apply font-extrabold text-xl mb-2;
+    }
+
+    .service-description {
+        @apply font-normal text-sm text-balance;
+    }
+
+    .icon-box {
+        @apply bg-base-300 border border-base-300 p-5 rounded-md text-center;
+    }
+
+    .icon-box-label {
+        @apply text-xl md:text-2xl font-bold mt-2;
+    }
+
+    .icon-box-value {
+        @apply text-xl tracking-wider mt-2;
+    }
+
+    .blog-item {
+        @apply relative border border-base-300 rounded-md overflow-hidden;
+    }
+
+    .blog-item .blog-badge {
+        @apply absolute top-3 left-3 z-50 bg-white text-black px-1 py-0.5 text-sm font-semibold shadow rounded-sm;
+    }
+
+    .blog-img-wrapper {
+        @apply overflow-hidden w-full h-40;
+    }
+
+    .portfolio-img-wrapper {
+        @apply overflow-hidden w-full max-h-48;
+    }
+
+    .blog-img,
+    .portfolio-img {
+        @apply object-cover w-full object-center transition-transform duration-300 ease-out;
+    }
+
+    .blog-img-wrapper:hover .blog-img,
+    .portfolio-img-wrapper:hover .portfolio-img {
+        @apply scale-110;
+    }
+
+    .blog-content {
+        @apply p-3;
+    }
+
+    .modal-content {
+        @apply w-full h-full overflow-x-hidden overflow-y-auto;
+    }
+
+    .blog-modal-content-inner {
+        @apply bg-base-300 text-base-foreground border border-base-200 p-5 basis-full;
+    }
+
+    .blog-modal-markdown {
+        @apply prose-sm prose-h1:font-black prose-h2:font-black mt-4;
+    }
+
+    .portfolio-item {
+        @apply w-full relative;
+    }
+
+    .portfolio-item-title {
+        @apply text-base tracking-wide font-semibold my-1;
+    }
+
+    .portfolio-item-category {
+        @apply text-muted text-xs;
+    }
+
+    .modal {
+        @apply fixed top-0 left-0 right-0 bottom-0 bg-black/90 z-[9998] hidden;
+    }
+
+    .modal-wrapper {
+        @apply container flex flex-col h-full;
+    }
+
+    .modal-header {
+        @apply w-full flex flex-row-reverse items-center justify-between py-2;
+    }
+
+    .modal-content {
+        @apply w-full h-full overflow-x-hidden overflow-y-auto;
+    }
+
+    .modal.show {
+        @apply flex;
+    }
+
+    .badge {
+        @apply bg-primary w-auto px-3 py-0.5 text-sm font-semibold rounded-md text-primary-foreground;
+    }
+
+    .clearfix::before {
+        content: " ";
+        @apply table;
+    }
+
+    .clearfix:after {
+        @apply clear-both;
+    }
+
+    .timeline-item {
+        @apply w-full relative table table-fixed pb-4;
+    }
+
+    .timeline-item:last-child {
+        @apply !pb-0;
+    }
+
+    .left-part {
+        width: 30%;
+        display: table-cell;
+        padding-right: 25px;
+        min-height: 100%;
+        text-align: right;
+        vertical-align: top;
+    }
+
+    .right-part {
+        width: 70%;
+        display: table-cell;
+        padding-left: 25px;
+        padding-right: 15px;
+        vertical-align: top;
+    }
+
+    .divider {
+        @apply top-0 absolute;
+        left: 30%;
+        @apply bottom-0 bg-primary w-[1px] left-[30%] top-0;
+    }
+
+    .divider::before {
+        content: "";
+        @apply block absolute mt-1 w-4 h-4 -ml-2 rounded-lg bg-primary opacity-25 z-0;
+    }
+
+    .divider::after {
+        content: "";
+        @apply block absolute mt-2 w-2 h-2 -ml-1 bg-primary rounded border border-primary z-[1];
+    }
+
+    .timeline-item:last-child .right-part {
+        padding-bottom: 0;
+    }
+
+    @media only screen and (max-width: 480px) {
+        .timeline-item {
+            position: relative;
+            display: block;
+        }
+
+        .left-part {
+            width: 100%;
+            display: block;
+            padding-left: 25px;
+            min-height: 100%;
+            text-align: left;
+        }
+
+        .divider {
+            left: 0;
+        }
+
+        .right-part {
+            width: 100%;
+            display: block;
+            padding-left: 25px;
+            padding-right: 0;
+        }
+    }
+
+    .progress-wrapper {
+        @apply mt-2;
+    }
+
+    .progress {
+        @apply mt-1 relative overflow-hidden border border-primary rounded-full;
+    }
+
+    .progress-bar {
+        @apply h-2;
+    }
+}
+
+.rotate-animation {
+    transform: rotate(-50deg);
+    animation: rotateAnimation 13s infinite alternate;
+}
+
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(-50deg);
+    }
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+body {
+    @apply overflow-x-hidden bg-base-100;
+}
+
+::-webkit-scrollbar {
+    @apply w-2 bg-base-200 border-none;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-md my-2;
+}
