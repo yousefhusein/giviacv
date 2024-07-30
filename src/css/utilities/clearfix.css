@@ -1,0 +1,8 @@
+.clearfix::before {
+  content: " ";
+  @apply table;
+}
+
+.clearfix:after {
+  @apply clear-both;
+}

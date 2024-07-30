@@ -1,0 +1,20 @@
+.testimonial {
+  @apply bg-base-300 border border-base-200 rounded-md text-center mt-9 p-3;
+}
+
+.testimonial-img img {
+  @apply block -mt-12 mx-auto mb-5 !size-24 rounded-full;
+  transform-style: preserve-3d;
+}
+
+.testimonial-quote {
+  @apply italic;
+}
+
+.testimonial-footer {
+  @apply flex flex-row items-center justify-between mt-5;
+}
+
+.testimonial-author {
+  @apply font-bold;
+}

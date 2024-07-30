@@ -8,7 +8,6 @@ A Responsive Personal / vCard / CV HTML Template based in TailwindCSS.
 - Browser Compatibility
 - Light / Dark Mode
 - Easy To Customize
-- Documented
 
 ## Documentation
 
@@ -22,7 +21,8 @@ Designed & Developed by YousefHusain.
 
 - [Pexels](https://pexels.com/)
 - [Unsplash](https://unsplash.com/)
-- PicsArt
+- [PicsArt](https://picsart.com/)
+- [RandomUser](https://randomuser.me/)
 
 ## Credits
 
@@ -31,4 +31,5 @@ Designed & Developed by YousefHusain.
 - jQuery
 - AOS
 - OwlCarousel2
+- Google Fonts
 - FontAwesome

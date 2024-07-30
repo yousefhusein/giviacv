@@ -1,0 +1,4 @@
+.pattern {
+  background-image: url("/patterns/pattern.webp");
+  @apply bg-fixed bg-cover bg-center bg-no-repeat;
+}

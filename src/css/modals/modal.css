@@ -1,0 +1,31 @@
+.modal-content {
+  @apply w-full h-full overflow-x-hidden overflow-y-auto;
+}
+
+.blog-modal-content-inner {
+  @apply bg-base-300 text-base-foreground border border-base-200 p-5 basis-full;
+}
+
+.blog-modal-markdown {
+  @apply prose-sm prose-h1:font-black prose-h2:font-black mt-4;
+}
+
+.modal {
+  @apply fixed top-0 left-0 right-0 bottom-0 bg-black/25 backdrop-blur z-[9998] hidden;
+}
+
+.modal-wrapper {
+  @apply container flex flex-col h-full;
+}
+
+.modal-header {
+  @apply w-full flex flex-row-reverse items-center justify-between py-2;
+}
+
+.modal-content {
+  @apply w-full h-full overflow-x-hidden overflow-y-auto;
+}
+
+.modal.show {
+  @apply flex;
+}

@@ -1,0 +1,13 @@
+.rotate-animation {
+  transform: rotate(-50deg);
+  animation: rotateAnimation 13s infinite alternate;
+}
+
+@keyframes rotateAnimation {
+  0% {
+      transform: rotate(-50deg);
+  }
+  100% {
+      transform: rotate(-30deg);
+  }
+}

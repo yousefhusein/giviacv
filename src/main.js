@@ -1,4 +1,4 @@
-import "./style.css"
+import "./css/main.css"
 
 import "aos/dist/aos.css"
 

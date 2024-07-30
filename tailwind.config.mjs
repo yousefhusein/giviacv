@@ -19,6 +19,8 @@ export default {
                 "base-300": "var(--base-300)",
                 "base-foreground": "var(--base-foreground)",
                 primary: "var(--primary)",
+                accent: "var(--accent)",
+                "accent-foreground": "var(--accent-foreground)",
                 "primary-foreground": "var(--primary-foreground)",
                 muted: "var(--muted)",
                 "muted-foreground": "var(--muted-foreground)",

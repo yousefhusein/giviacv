@@ -1,0 +1,35 @@
+/* Head */
+@import "./tailwind.css";
+@import "./general.css";
+
+/* Layouts */
+@import "./layouts/section.css";
+
+/* Others */
+@import "./others/others.css";
+@import "./others/patterns.css";
+
+/* Utilities */
+@import "./utilities/block.css";
+@import "./utilities/clearfix.css";
+@import "./utilities/container.css";
+@import "./utilities/flex.css";
+
+/* Components */
+@import "./components/badge.css";
+@import "./components/blog-box.css";
+@import "./components/buttons.css";
+@import "./components/forms.css";
+@import "./components/icon-box.css";
+@import "./components/portfolio-box.css";
+@import "./components/progress.css";
+@import "./components/service-box.css";
+@import "./components/testimonials.css";
+@import "./components/timeline.css";
+@import "./components/tooltips.css";
+
+/* Modals */
+@import "./modals/modal.css";
+
+/* Animations */
+@import "./animations/rotate.css"

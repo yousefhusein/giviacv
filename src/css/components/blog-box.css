@@ -1,0 +1,25 @@
+.blog-item {
+  @apply relative border border-base-300 rounded-md overflow-hidden;
+}
+
+.blog-item .blog-badge {
+  @apply absolute top-3 left-3 z-50 bg-white text-black px-1 py-0.5 text-sm font-semibold shadow rounded-sm;
+}
+
+.blog-img-wrapper {
+  @apply overflow-hidden w-full h-40;
+}
+
+.blog-img,
+.portfolio-img {
+  @apply object-cover w-full object-center transition-transform duration-300 ease-out;
+}
+
+.blog-img-wrapper:hover .blog-img,
+.portfolio-img-wrapper:hover .portfolio-img {
+  @apply scale-110;
+}
+
+.blog-content {
+  @apply p-3;
+}

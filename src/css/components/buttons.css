@@ -1,0 +1,11 @@
+.btn {
+  @apply px-6 py-2 transition-all font-semibold active:scale-95;
+}
+
+.btn.btn-primary {
+  @apply bg-primary text-primary-foreground;
+}
+
+.btn.btn-ghost {
+  @apply bg-transparent hover:bg-accent hover:text-accent-foreground;
+}

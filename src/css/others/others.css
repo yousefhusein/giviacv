@@ -1,0 +1,11 @@
+.hero-profile {
+  background-image: url("https://images.pexels.com/photos/2446655/pexels-photo-2446655.jpeg?auto=compress&cs=tinysrgb&w=600");
+}
+
+.about-profile {
+  background-image: url("https://images.pexels.com/photos/1816643/pexels-photo-1816643.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+}
+
+.profile {
+  @apply bg-cover bg-center bg-no-repeat;
+}

@@ -1,0 +1,70 @@
+.timeline-item {
+  @apply w-full relative table table-fixed pb-4;
+}
+
+.timeline-item:last-child {
+  @apply !pb-0;
+}
+
+.left-part {
+  width: 30%;
+  display: table-cell;
+  padding-right: 25px;
+  min-height: 100%;
+  text-align: right;
+  vertical-align: top;
+}
+
+.right-part {
+  width: 70%;
+  display: table-cell;
+  padding-left: 25px;
+  padding-right: 15px;
+  vertical-align: top;
+}
+
+.divider {
+  @apply top-0 absolute;
+  left: 30%;
+  @apply bottom-0 bg-primary w-[1px] left-[30%] top-0;
+}
+
+.divider::before {
+  content: "";
+  @apply block absolute mt-1 w-4 h-4 -ml-2 rounded-lg bg-primary opacity-25 z-0;
+}
+
+.divider::after {
+  content: "";
+  @apply block absolute mt-2 w-2 h-2 -ml-1 bg-primary rounded border border-primary z-[1];
+}
+
+.timeline-item:last-child .right-part {
+  padding-bottom: 0;
+}
+
+@media only screen and (max-width: 480px) {
+  .timeline-item {
+      position: relative;
+      display: block;
+  }
+
+  .left-part {
+      width: 100%;
+      display: block;
+      padding-left: 25px;
+      min-height: 100%;
+      text-align: left;
+  }
+
+  .divider {
+      left: 0;
+  }
+
+  .right-part {
+      width: 100%;
+      display: block;
+      padding-left: 25px;
+      padding-right: 0;
+  }
+}
