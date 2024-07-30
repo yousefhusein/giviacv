@@ -9,13 +9,9 @@ A Responsive Personal / vCard / CV HTML Template based in TailwindCSS.
 - Light / Dark Mode
 - Easy To Customize
 
-## Documentation
-
-Please see `/docs/index.md`
-
 ## Author
 
-Designed & Developed by YousefHusain.
+Designed & Developed by [YousefHusain](https://yousefhusain.com).
 
 ## Resources
 
