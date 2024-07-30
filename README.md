@@ -1,4 +1,4 @@
-# GiviaCV v1.0.1
+# GiviaCV v1.0.2
 
 A Responsive Personal / vCard / CV HTML Template based in TailwindCSS.
 
