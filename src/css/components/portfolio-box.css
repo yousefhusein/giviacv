@@ -1,15 +1,15 @@
 .portfolio-item {
-  @apply w-full relative;
+    @apply w-full relative;
 }
 
 .portfolio-item-title {
-  @apply text-base tracking-wide font-semibold my-1;
+    @apply text-base tracking-wide font-semibold my-1;
 }
 
 .portfolio-img-wrapper {
-  @apply overflow-hidden w-full max-h-48;
+    @apply overflow-hidden w-full max-h-48;
 }
 
 .portfolio-item-category {
-  @apply text-muted text-xs;
+    @apply text-muted text-xs;
 }

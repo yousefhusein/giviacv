@@ -4,6 +4,21 @@ $(function () {
     $("body").removeClass("loading")
     $(".preloader").remove()
 
+    $(window).on("scroll", (event) => {
+        const $backToTop = $("#back-to-top")
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            if (!$backToTop.hasClass("show")) {
+                $backToTop.addClass("show")
+            }
+        } else {
+            $backToTop.removeClass("show")
+        }
+    })
+
+    $("#back-to-top-btn").on("click", () => {
+        window.scroll({ top: 0, behavior: "smooth" })
+    })
+
     Aos.init({ delay: 100 })
 
     $(".testimonials-carousel").owlCarousel({

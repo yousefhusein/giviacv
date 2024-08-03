@@ -1,7 +1,7 @@
 .badges {
-  @apply flex flex-wrap gap-1;
+    @apply flex flex-wrap gap-1;
 }
 
 .badge {
-  @apply bg-primary w-auto px-3 py-0.5 text-sm font-semibold rounded-md text-primary-foreground;
+    @apply bg-primary w-auto px-3 py-0.5 text-sm font-semibold rounded-md text-primary-foreground;
 }

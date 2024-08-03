@@ -1,28 +1,28 @@
 .testimonial {
-  @apply bg-base-300 border border-base-200 rounded-md text-center mt-9 p-3;
+    @apply bg-base-300 border border-base-200 rounded-md text-center mt-9 p-3;
 }
 
 .testimonial-img img {
-  @apply block -mt-12 mx-auto mb-2.5 !size-24 rounded-full;
-  transform-style: preserve-3d;
+    @apply block -mt-12 mx-auto mb-2.5 !size-24 rounded-full;
+    transform-style: preserve-3d;
 }
 
 .testimonial-role {
-  @apply block mb-2.5 relative w-full font-semibold text-muted text-sm;
+    @apply block mb-2.5 relative w-full font-semibold text-muted text-sm;
 }
 
 .testimonial-role > .testimonial-role-link {
-  @apply text-primary italic;
+    @apply text-primary italic;
 }
 
 .testimonial-quote {
-  @apply italic;
+    @apply italic;
 }
 
 .testimonial-footer {
-  @apply flex flex-row items-center justify-between mt-5;
+    @apply flex flex-row items-center justify-between mt-5;
 }
 
 .testimonial-author {
-  @apply font-bold;
+    @apply font-bold;
 }

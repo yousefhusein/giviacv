@@ -1,11 +1,11 @@
 .service {
-  @apply rounded-md;
+    @apply rounded-md;
 }
 
 .service-title {
-  @apply font-extrabold text-xl mb-2;
+    @apply font-extrabold text-xl mb-2;
 }
 
 .service-description {
-  @apply font-normal text-sm text-balance;
+    @apply font-normal text-sm text-balance;
 }

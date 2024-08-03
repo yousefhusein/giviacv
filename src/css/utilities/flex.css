@@ -1,11 +1,11 @@
 .flexbox {
-  @apply flex items-center;
+    @apply flex items-center;
 }
 
 .flexbox-between {
-  @apply flexbox justify-between;
+    @apply flexbox justify-between;
 }
 
 .flexbox-centered {
-  @apply flexbox justify-center;
+    @apply flexbox justify-center;
 }

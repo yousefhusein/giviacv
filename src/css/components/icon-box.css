@@ -1,11 +1,11 @@
 .icon-box {
-  @apply bg-base-300 border border-base-300 p-5 rounded-md text-center;
+    @apply bg-base-300 border border-base-300 p-5 rounded-md text-center;
 }
 
 .icon-box-label {
-  @apply text-xl md:text-2xl font-bold mt-2;
+    @apply text-xl md:text-2xl font-bold mt-2;
 }
 
 .icon-box-value {
-  @apply tracking-wider mt-2;
+    @apply tracking-wider mt-2;
 }

@@ -1,8 +1,8 @@
 .clearfix::before {
-  content: " ";
-  @apply table;
+    content: " ";
+    @apply table;
 }
 
 .clearfix:after {
-  @apply clear-both;
+    @apply clear-both;
 }

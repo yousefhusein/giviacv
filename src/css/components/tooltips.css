@@ -1,12 +1,12 @@
 .tooltip {
-  @apply relative;
+    @apply relative;
 }
 
 .tooltip > label {
-  @apply hidden absolute min-w-20 -bottom-10 z-50 text-center left-1/2 -translate-x-1/2 bg-black text-white px-3 py-1 rounded whitespace-nowrap;
+    @apply hidden absolute min-w-20 -bottom-10 z-50 text-center left-1/2 -translate-x-1/2 bg-black text-white px-3 py-1 rounded whitespace-nowrap;
 }
 
 .tooltip > img:hover + label,
 .tooltip > a:hover + label {
-  @apply block;
+    @apply block;
 }

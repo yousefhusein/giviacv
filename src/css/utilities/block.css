@@ -1,15 +1,15 @@
 .section-block {
-  @apply mt-12 mb-2;
+    @apply mt-12 mb-2;
 }
 
 .section-block-wrapper {
-  @apply relative w-full clear-both;
+    @apply relative w-full clear-both;
 }
 
 .section-block-title {
-  @apply text-2xl tracking-wide font-extrabold;
+    @apply text-2xl tracking-wide font-extrabold;
 }
 
 .section-block-content {
-  @apply relative mt-4;
+    @apply relative mt-4;
 }

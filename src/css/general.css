@@ -1,13 +1,13 @@
 body {
-  @apply overflow-x-hidden bg-base-100;
+    @apply overflow-x-hidden bg-base-100;
 }
 
 /* Scrollbar */
 
 ::-webkit-scrollbar {
-  @apply w-2 bg-base-200 border-none;
+    @apply w-2 bg-base-200 border-none;
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-primary rounded-md my-2;
+    @apply bg-primary rounded-md my-2;
 }
