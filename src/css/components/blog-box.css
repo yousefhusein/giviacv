@@ -10,6 +10,14 @@
     @apply overflow-hidden w-full h-40;
 }
 
+.blog-date {
+    @apply text-muted text-sm mt-2;
+}
+
+.blog-title {
+    @apply text-xl font-bold mt-2;
+}
+
 .blog-img,
 .portfolio-img {
     @apply object-cover w-full object-center transition-transform duration-300 ease-out;

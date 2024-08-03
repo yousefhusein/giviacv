@@ -2,6 +2,10 @@
     @apply bg-base-300 border border-base-300 p-5 rounded-md text-center;
 }
 
+.icon-box-icon {
+    @apply bg-primary rounded-full mx-auto -mt-12 size-16 text-primary-foreground flex items-center justify-center text-3xl;
+}
+
 .icon-box-label {
     @apply text-xl md:text-2xl font-bold mt-2;
 }
