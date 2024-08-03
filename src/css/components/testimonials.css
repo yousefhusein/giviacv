@@ -3,8 +3,16 @@
 }
 
 .testimonial-img img {
-  @apply block -mt-12 mx-auto mb-5 !size-24 rounded-full;
+  @apply block -mt-12 mx-auto mb-2.5 !size-24 rounded-full;
   transform-style: preserve-3d;
+}
+
+.testimonial-role {
+  @apply block mb-2.5 relative w-full font-semibold text-muted text-sm;
+}
+
+.testimonial-role > .testimonial-role-link {
+  @apply text-primary italic;
 }
 
 .testimonial-quote {
