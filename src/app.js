@@ -69,17 +69,4 @@ $(function () {
             $modal.removeClass("show")
         }
     })
-
-    $(".project-previews").owlCarousel({
-        items: 1,
-        margin: 15,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            1280: {
-                items: 2,
-            },
-        },
-    })
 })
