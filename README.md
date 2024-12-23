@@ -2,12 +2,14 @@
 
 A Responsive vCard, Resume, and CV HTML template based in TailwindCSS.
 
-Introducing GiviaCV - an HTML template for creating professional portfolios, resumes and business cards. Designed for compatibility with any screen size, from large desktop screens to small smartphone screens. With pre-designed layouts and easy customization options, you can easily customize the look and feel of elements like buttons, links, and cards to match your personal brand. Allowing you to easily create a premium, high-quality website.
+## Introduction
+
+An HTML5 template for creating professional portfolios, resumes and business cards. Designed for compatibility with any screen size, from large desktop screens to small smartphone screens. With pre-designed layouts and easy customization options, you can easily customize the look and feel of elements like buttons, links, and cards to match your personal brand. Allowing you to easily create a premium, high-quality website.
 
 ## Main Features
 
-- Fully Responsive
-- Browser Compatibility
+- Fully Responsive Layout
+- Cross-Browser Compatibility
 - Light / Dark Mode
 - Easy To Customize
 
@@ -27,7 +29,7 @@ Designed & Developed by [YousefHusain](https://yousefhusain.com).
 - Vite
 - TailwindCSS
 - jQuery
-- AOS
+- AOS (Animate On Scroll)
 - OwlCarousel2
 - Google Fonts
 - FontAwesome
